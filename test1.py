@@ -19,7 +19,7 @@ class Testprueba (unittest.TestCase):
            [-1.2,2.3],
            [0.5,-0.5],
            [1.1,2]]
-        self.assertEqual(mlp.salida_capa(x,w),[1.402524224033636, 1.1224564282529819])
+        self.assertEqual(mlp.salida_capa(x,w),[0.7130001627522816, 0.8909031788043871])
         
         
 
